@@ -1,0 +1,31 @@
+{
+  "name": "doctor-who",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": ["doctor who", "doctor", "who", "exterminate", "companions", "node", "cli", "browser"],
+  "description": "Get Doctor Who companions names.",
+  "author": {
+    "email": "contact@corentin-thomasset.fr",
+    "name": "Corentin Thomasset",
+    "url": "corentin-thomasset.fr"
+  },
+  "devDependencies": {
+    "commander": "latest",
+    "coveralls": "^3.0.3",
+    "eslint": "^5.16.0",
+    "jest": "^24.7.1"
+  },
+  "scripts": {
+    "lint": "eslint ./src/ ./test/",
+    "test": "jest ./test/ --coverage --collectCoverageFrom=src/*.js",
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
+  },
+  "bin": {
+    "doctor-who": "bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CorentinTh/doctor-who.git"
+  }
+}

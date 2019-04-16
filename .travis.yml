@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "8"
+  - "10"
+  - "11"
+
+cache: yarn
+install: yarn
+
+script:
+  - yarn lint
+  - yarn test
+
+after_success:
+  - 'if [ "$node_js" = "8" ]; then yarn coveralls; fi'
