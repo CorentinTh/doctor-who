@@ -1,4 +1,68 @@
 {
+  "1": [
+    "Susan Foreman",
+    "Barbara Wright",
+    "Ian Chesterton",
+    "Steven Taylor",
+    "Sara Kingdom",
+    "Dodo Chaplet",
+    "Ben Jackson",
+    "Polly",
+    "Vicki",
+    "Katarina"
+  ],
+  "2": [
+    "Polly",
+    "Ben Jackson",
+    "Brigadier Lethbridge-Stewart",
+    "Jamie McCrimmon",
+    "Victoria Waterfield",
+    "Zoe Heriot"
+  ],
+  "3": [
+    "Liz Shaw",
+    "Jo Grant",
+    "Sarah Jane Smith",
+    "Brigadier Lethbridge-Stewart",
+    "Sergeant John Benton",
+    "Captain Mike Yates"
+  ],
+  "4": [
+    "Sarah Jane Smith",
+    "Harry Sullivan",
+    "Leela",
+    "K9 Mark I",
+    "K9 Mark II",
+    "Romana I",
+    "Romana II",
+    "Adric",
+    "Nyssa",
+    "Tegan Jovanka"
+  ],
+  "5": [
+    "Adric",
+    "Nyssa",
+    "Tegan Jovanka",
+    "Vislor Turlough",
+    "Kamelion",
+    "Peri Brown"
+  ],
+  "6": [
+    "Peri Brown",
+    "Mel Bush"
+  ],
+  "7": [
+    "Mel Bush",
+    "Ace"
+  ],
+  "8": [
+    "Grace Holloway"
+  ],
+  "9": [
+    "Rose Tyler",
+    "Adam Mitchell",
+    "Jack Harkness"
+  ],
   "10": [
     "Rose Tyler",
     "Mickey Smith",
@@ -18,5 +82,18 @@
     "River Song",
     "Craig Owens",
     "Clara Oswald"
+  ],
+  "12": [
+    "River Song",
+    "Clara Oswald",
+    "Nardole",
+    "Bill Potts"
+  ],
+  "13": [
+    "Graham O'Brien",
+    "Ryan Sinclair",
+    "Yasmin Khan"
   ]
 }
+
+
