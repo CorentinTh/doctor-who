@@ -4,8 +4,12 @@
 </p>
 
 <p align="center">
-    <img alt="npm" src="https://img.shields.io/npm/dw/doctor-who.svg">
+    <a href="https://www.npmjs.com/package/doctor-who"><img src="https://img.shields.io/npm/dw/doctor-who.svg" alt="Weekly Downloads" /></a>
     <a href="https://travis-ci.com/CorentinTh/doctor-who"><img src="https://travis-ci.com/CorentinTh/doctor-who.svg?branch=master" alt="Build Status" /></a>
+    <a href='https://coveralls.io/github/CorentinTh/doctor-who?branch=master'><img src='https://coveralls.io/repos/github/CorentinTh/doctor-who/badge.svg?branch=master' alt='Coverage Status' /></a>
+    <a href="https://www.npmjs.com/package/doctor-who"><img src="https://img.shields.io/bundlephobia/minzip/doctor-who.svg" alt="npm bundle size" /></a>
+    <a href="https://www.npmjs.com/package/doctor-who"><img src="https://img.shields.io/github/package-json/v/CorentinTh/doctor-who.svg" alt="GitHub package.json version" /></a>
+    <a href='LICENCE'><img src="https://img.shields.io/github/license/CorentinTh/doctor-who.svg" alt="Licence Badge" /></a>
 </p>
 
 Doctor Who names: a simple and small npm package to get Doctor Who characters names. Can be useful for data anonymization or username placeholder.
