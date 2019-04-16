@@ -18,8 +18,8 @@
   },
   "scripts": {
     "lint": "eslint ./src/ ./test/",
-    "test": "jest ./test/ --coverage --collectCoverageFrom=src/*.js",
-    "coveralls": "cat ./coverage/lcov.info | coveralls"
+    "test": "jest ./test/",
+    "coveralls": "jest ./test/ --coverage --collectCoverageFrom=src/*.js --coverageReporters=text-lcov | coveralls"
   },
   "bin": {
     "doctor-who": "bin/cli.js"
