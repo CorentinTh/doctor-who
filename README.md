@@ -18,7 +18,6 @@ const gen = new Generator();
 gen.random(); // 'Rory Williams'
 gen.all(); // ['Amy Pond', 'Rose Tyler', ... ]
 gen.get(2); // ['River Song', 'Clara Oswald']
-
 ```
 
 ## Installation
