@@ -23,11 +23,15 @@
     "url": "https://github.com/CorentinTh/doctor-who.git"
   },
   "scripts": {
-    "lint": "eslint ./src/ ./test/",
-    "test": "jest ./test/",
-    "coveralls": "jest ./test/ --coverage --collectCoverageFrom=src/*.js --coverageReporters=text-lcov | coveralls"
+    "build": "microbundle build src/Generator.js",
+    "lint": "eslint src/ test/",
+    "test": "jest test/",
+    "coveralls": "jest test/ --coverage --collectCoverageFrom=src/*.js --coverageReporters=text-lcov | coveralls",
+    "prepublish": "yarn build"
   },
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "unpkg": "dist/index.umd.js",
   "bin": {
     "doctor-who": "bin/cli.js"
   },
@@ -37,6 +41,8 @@
   "devDependencies": {
     "coveralls": "^3.0.3",
     "eslint": "^5.16.0",
-    "jest": "^24.7.1"
+    "jest": "^24.7.1",
+    "microbundle": "^0.11.0"
   }
 }
+
