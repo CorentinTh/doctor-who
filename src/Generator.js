@@ -1,5 +1,5 @@
-const path = require('path');
-const fs = require('fs');
+import path from 'path';
+import fs from 'fs';
 
 const dataPath = path.join('..', 'data');
 const extension = '.json';
@@ -7,7 +7,7 @@ const extension = '.json';
 /**
  * @class Generator - Generate values
  */
-class Generator {
+export default class Generator {
 
     /**
      * Generator constructor
@@ -106,4 +106,4 @@ class Generator {
     }
 }
 
-module.exports = Generator;
+// module.exports = Generator;
