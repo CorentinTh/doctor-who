@@ -20,11 +20,12 @@ jobs:
 
     - stage: npm release
       node_js: "10"
-      script:
-        - echo "Deploying to npm ..."
+      script: echo "Deploying to npm ..."
       deploy:
+        skip_cleanup: true
         provider: npm
         api_key: $NPM_API_KEY
         email: corentin.thomasset+npm@gmail.com
         on:
           tags: true
+          branch: master
