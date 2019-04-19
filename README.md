@@ -34,7 +34,6 @@ npm install --global doctor-who
 yarn global add doctor-who
 ```
 
-
 ## API
 
 ### constructor(doctors = 'all', language = 'en')
