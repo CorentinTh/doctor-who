@@ -1,5 +1,5 @@
-let path = require("path");
-let {exec} = require("child_process");
+import path from 'path';
+import {exec} from "child_process";
 
 function cli(args = []) {
     return new Promise(resolve => {

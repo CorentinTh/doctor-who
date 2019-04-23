@@ -1,5 +1,5 @@
-const Generator = require('..');
-const path = require('path');
+import Generator from '../src/Generator';
+import * as path from 'path';
 
 const tenth = require(path.join(__dirname, '..', 'data', 'en.json'))["10"];
 

@@ -25,7 +25,7 @@
   "scripts": {
     "build": "microbundle build src/Generator.js",
     "lint": "eslint src/ test/",
-    "test": "jest test/",
+    "test": "jest",
     "coveralls": "jest test/ --coverage --collectCoverageFrom=src/*.js --coverageReporters=text-lcov | coveralls",
     "prepublish": "yarn build"
   },
@@ -39,6 +39,9 @@
     "commander": "^2.20.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-jest": "^24.7.1",
     "coveralls": "^3.0.3",
     "eslint": "^5.16.0",
     "jest": "^24.7.1",
