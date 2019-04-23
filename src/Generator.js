@@ -105,5 +105,3 @@ export default class Generator {
         })
     }
 }
-
-// module.exports = Generator;
